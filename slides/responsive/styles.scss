@@ -1,0 +1,27 @@
+.container {
+    .lorem{
+        font-family: 'Georgia', serif;
+        font-style: italic;
+        padding: 50px;
+        min-width: 1000px;
+    }
+    .layout{
+        display: flex;
+        .item{
+            background: #555;
+            flex-grow: 1;
+            height: 300px;
+            margin: 10px;
+            &.second{
+                flex-grow: 2;
+                background: black;
+            }
+        }
+        @media (max-width: 500px) {
+            flex-direction: column;
+        }
+        @media (orientation: portrait) {
+            flex-direction: column;
+        }
+    }
+}

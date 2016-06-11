@@ -1,0 +1,22 @@
+.container .title {
+  position: absolute;
+  top: 35%;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+.container .info {
+  top: 70%;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  font-style: italic;
+  font-size: 1.4rem; }
+
+.container .twitter {
+  bottom: 5%;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  font-weight: bold; }

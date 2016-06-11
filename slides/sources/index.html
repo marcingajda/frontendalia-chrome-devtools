@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <title>Frontendalia 2016</title>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/global.css" />
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+<div class="container slide2" id="some_random_id">
+    <ul class="menu">
+        <li><a href="/slides/profileHeap/index.html">&laquo;</a></li>
+        <li><strong>Frontendalia</strong></li>
+        <li><a href="/slides/repainting/index.html">&raquo;</a></li>
+    </ul>
+    <div class="title">
+        Debugowanie skryptów
+    </div>
+    <div class="box">
+        <select id="roles" class="field" type="text">
+            <option value="admin">Admin</option>
+            <option value="moderator">Moderator</option>
+            <option value="user">User</option>
+        </select>
+        <button class="btn" id="search">Wyszukaj</button>
+    </div>
+    <div class="list">
+        Lista:
+        <ul id="found" class="bullets"></ul>
+    </div>
+</div>
+<script src="/node_modules/jquery/dist/jquery.js"></script>
+<script src="/main.js"></script>
+<script src="./script.js"></script>
+</body>
+</html>

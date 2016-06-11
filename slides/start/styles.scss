@@ -1,0 +1,27 @@
+.container{
+    background: url('../../images/ninja.png') no-repeat 10% bottom;
+    background-size: 40%;
+
+    .name{
+        text-align: left;
+        line-height: normal;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 400;
+        position: absolute;
+        top: 70%;
+        left: 70%;
+        .company {
+            font-size: 1.1rem;
+            font-weight: 100;
+        }
+    }
+    .title {
+        position: absolute;
+        top: 35%;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}

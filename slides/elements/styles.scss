@@ -1,0 +1,21 @@
+.container {
+    .box{
+        padding-top: 60px;
+    }
+    .special{
+        transition: 1s;
+        &:hover {
+            letter-spacing: 20px;
+        }
+    }
+}
+
+.title{
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+ul + div {
+    margin-bottom: 50px !important;
+}

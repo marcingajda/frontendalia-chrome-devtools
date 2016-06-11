@@ -1,0 +1,10 @@
+.container .list {
+  position: absolute;
+  right: 0;
+  top: 180px;
+  width: 30%;
+  height: 300px;
+  font-size: 1.7rem; }
+  .container .list .bullets {
+    margin-left: 30px;
+    margin-top: 10px; }
